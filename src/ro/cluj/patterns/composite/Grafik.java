@@ -1,6 +1,6 @@
 package ro.cluj.patterns.composite;
 
-public class Grafik {
+public abstract class Grafik implements Component{
     public void Zeichne() { }
 
     public void FuegeHinzu(Grafik grafik) {}
