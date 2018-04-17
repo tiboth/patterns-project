@@ -1,5 +1,5 @@
 Adapter
-Factory (incl. abstract)
+Factory (abstract)
 Decorator
 Proxy
 Composite
