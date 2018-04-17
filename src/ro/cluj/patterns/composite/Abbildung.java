@@ -1,9 +1,13 @@
 package ro.cluj.patterns.composite;
 
-public class Abbildung {
-    public void Zeichne() { }
+public class Abbildung extends Grafik{
+    public void Zeichne() {
 
-    public void FuegeHinzu(Grafik grafik) {}
+    }
+
+    public void FuegeHinzu(Grafik grafik) {
+        grafik.FuegeHinzu(grafik);
+    }
 
     public void Entferne(Grafik grafik) {}
 
